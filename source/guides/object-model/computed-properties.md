@@ -73,4 +73,4 @@ person.get('lastName') // Wagenet
 Ember will call the computed property for both setters and getters, and
 you can check the number of arguments to determine whether it is being called
 as a getter or a setter.
-
+Note: Setting a computed property will make a normal property and will no longer update if one of its observed value changes.
